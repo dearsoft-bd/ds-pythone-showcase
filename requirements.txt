@@ -1,0 +1,27 @@
+# DS-Pythone — runtime dependencies
+Flask>=3.0,<4.0
+PyMySQL>=1.1
+Jinja2>=3.1
+MarkupSafe>=2.1
+Pillow>=10.0
+cryptography>=42.0
+bcrypt>=4.0
+libsass>=0.23
+requests>=2.31
+cloudscraper>=1.2.71
+python-dotenv>=1.0
+waitress>=3.0
+# gunicorn: Linux/VPS production only (Unix-only, won't run on Windows --
+# waitress above is what local Windows dev + INSTALL.md's simple examples
+# use). install/setup-vps.sh's systemd unit runs the app under this,
+# matching the proven live config (4 sync workers, 120s worker timeout).
+gunicorn>=21.0; sys_platform != "win32"
+
+# OPTIONAL — only needed for the DearSoft AI Background Remover's "Local AI"
+# provider (real ML-based edge detection, fully offline, no API key). Pulls in
+# numpy/scipy/onnxruntime — a real chunk of disk (~250MB installed) and RAM
+# once a worker process actually uses it (roughly 200-400MB resident). Fine on
+# a host with a few GB of RAM to spare; skip installing this line on a
+# tight/low-memory host — every other Background Remover provider (including
+# the plain no-key "Local" color-based one) works completely without it.
+# rembg[cpu]>=2.0
