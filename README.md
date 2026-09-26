@@ -40,7 +40,7 @@ curl -s https://nrgiftshop.it/   | grep -o 'data-engine="[^"]*"'
 
 ## Why we built it
 
-DS-Pythone is DearSoft's own product. We built it to help store owners who already run an OpenCart-based shop &mdash; commonly with a theme system like Journal 3 &mdash; move that same store to Python without losing their catalog, customers, orders or theme settings, and without starting over. That is the whole point of the project: existing OpenCart-based stores, kept running, on Python.
+DS-Pythone is DearSoft's own product. We built it to help store owners who already run an OpenCart-based shop move that same store to Python without losing their catalog, customers, orders or theme settings, and without starting over. That is the whole point of the project: existing OpenCart-based stores, kept running, on Python.
 
 ## Where the code comes from
 

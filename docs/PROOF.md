@@ -47,7 +47,7 @@ Counted on the source tree on 25 September 2026, excluding virtual environments,
 
 ### Built to be compatible, written by us
 
-OpenCart is a widely used open-source e-commerce platform, and Journal 3 is one of its most popular themes. Many stores in Bangladesh and elsewhere run on that combination. We designed DS-Pythone so those stores can move to Python without starting over.
+OpenCart is a widely used open-source e-commerce platform. Many stores in Bangladesh and elsewhere run on it. We designed DS-Pythone so those stores can move to Python without starting over.
 
 **OpenCart-compatible structure**
 
