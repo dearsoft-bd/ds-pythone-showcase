@@ -47,7 +47,7 @@ DS-Pythone is DearSoft's own product. We built it to help store owners who alrea
 We say this plainly:
 
 - The base platform is **OpenCart 3.0.5.1** (GPL-3.0), ported to Python.
-- The storefront theme engine and the visual Studio builder derive from the **Journal 3** theme, also ported to Python. The Studio's admin front end is a compiled JavaScript bundle from that theme, unmodified apart from renamed labels. We are replacing this layer with newly written code over time.
+- The storefront theme engine and the visual Studio builder derive from the **Journal 3** theme, also ported to Python. The Studio's admin front end was originally a compiled JavaScript bundle from that theme; it has since been fully replaced with DearSoft-written code.
 - The Python port of the engine and DearSoft's own features (AI, image tools, Pathao, WhatsApp, customer accounts, licence system, installer) are written by DearSoft.
 - DS-Pythone is compatible with OpenCart and Journal 3 and is not affiliated with, sponsored by, or endorsed by OpenCart or Journal 3.
 
