@@ -59,10 +59,10 @@ OpenCart is a widely used open-source e-commerce platform. Many stores in Bangla
 **What is DearSoft's own work**
 
 - The complete Python engine: framework, loader, request handling, controllers, models and installer.
-- The DS-Pythone theme system and Studio builder, ported to Python from the Journal 3 theme's design.
+- The DS-Pythone theme system and Studio builder, ported to Python from the Journal 3 theme's design, including the Studio admin front end, now entirely DearSoft-written code.
 - DearSoft AI, image tools, Pathao courier integration, customer accounts, and the licence and installer system.
 
-> **Where a piece is still shared code.** The Studio admin's front end includes a compiled JavaScript bundle derived from the Journal 3 theme, unmodified apart from renamed labels; we are replacing it with DearSoft-written code over time. Everywhere else (the engine, the storefront theme, the admin backend and every feature listed above) is Python written by DearSoft.
+> **The Studio admin front end is now entirely DearSoft's own code.** The Studio admin's front end previously included a compiled JavaScript bundle derived from the Journal 3 theme; that bundle has been fully replaced with DearSoft-written code. The engine, the storefront theme, the admin backend and every feature listed above are Python and JavaScript written by DearSoft.
 
 OpenCart (GPL-3.0) and Journal 3 are the work of their respective owners. DS-Pythone is compatible with OpenCart and Journal 3 and is not affiliated with, sponsored by, or endorsed by OpenCart or Journal 3.
 
