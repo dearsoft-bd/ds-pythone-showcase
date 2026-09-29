@@ -82,7 +82,7 @@ The port is a deliberate **line-for-line translation**, not an idiomatic rewrite
 ## Provenance
 
 - **Platform base:** OpenCart 3.0.5.1 (GPL-3.0), ported to Python.
-- **Theme engine and Studio:** derived from the Journal 3 theme, ported to Python. The Studio's admin front end is a compiled JavaScript bundle from that theme, unmodified apart from renamed labels.
-- **DearSoft's own work:** the Python engine port, DearSoft AI, image tools, Pathao and WhatsApp integrations, customer accounts, the licence system and the installer.
+- **Theme engine and Studio:** derived from the Journal 3 theme, ported to Python. The Studio's admin front end was originally a compiled JavaScript bundle from that theme; it has since been fully replaced with DearSoft-written code.
+- **DearSoft's own work:** the Python engine port, DearSoft AI, image tools, Pathao and WhatsApp integrations, customer accounts, the licence system, the installer, and the Studio admin front end.
 
 The samples in [`samples/`](samples/) are from the last group.
