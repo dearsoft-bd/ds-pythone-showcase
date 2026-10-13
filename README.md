@@ -15,8 +15,8 @@ This repository is a **showcase**. It explains how DS-Pythone is built and inclu
 
 | Project | Country | Notes |
 |---|---|---|
-| [Dear IT](https://dearit.com.bd) | Bangladesh | IT accessories, laptop sales and repairs. 2,357 products. |
-| [NR Gift Shop](https://nrgiftshop.it) | Italy (Florence) | Gifts and retail. 320 products. Moved from a PHP store to DS-Pythone. |
+| [Dear IT](https://dearit.com.bd) | Bangladesh | IT accessories, laptop sales and repairs. About 2,350 products (public sitemap, 14 October 2026). |
+| [NR Gift Shop](https://nrgiftshop.it) | Italy (Florence) | Gifts and retail. About 370 products (public sitemap, 14 October 2026). Moved from a PHP store to DS-Pythone. |
 
 Every DS-Pythone storefront marks its engine in the page HTML, so you can check it yourself:
 

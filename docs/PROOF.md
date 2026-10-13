@@ -77,8 +77,8 @@ OpenCart (GPL-3.0) and Journal 3 are the work of their respective owners. DS-Pyt
 
 | Project | Country | Business | Catalog and speed | Status |
 |---|---|---|---|---|
-| [Dear IT](https://dearit.com.bd) | Bangladesh | IT accessories, laptop sales and repairs. DearSoft's own showcase store. | 2,357 products, migrated intact. Home page about 0.8 s (median of 5 requests, measured from Bangladesh on 24 Sep 2026). | Live |
-| [NR Gift Shop](https://nrgiftshop.it) | Italy (Florence) | Premium gifts and retail for shoppers in Italy. | 320 products. Moved from a PHP store to the Python engine. | Live |
+| [Dear IT](https://dearit.com.bd) | Bangladesh | IT accessories, laptop sales and repairs. DearSoft's own showcase store. | About 2,350 products (public sitemap, 14 October 2026), migrated intact. Home page about 0.8 s (median of 5 requests, measured from Bangladesh on 24 Sep 2026). | Live |
+| [NR Gift Shop](https://nrgiftshop.it) | Italy (Florence) | Premium gifts and retail for shoppers in Italy. | About 370 products (public sitemap, 14 October 2026). Moved from a PHP store to the Python engine. | Live |
 
 Other stores also run on the platform. Their details are shared only with each client's permission.
 
