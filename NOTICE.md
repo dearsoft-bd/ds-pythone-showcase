@@ -5,9 +5,9 @@
 - DS-Pythone is a Python port and extension of OpenCart 3.0.5.1 (GPL-3.0) and of the Journal 3 theme engine. Those upstream works keep their own licences. The full DS-Pythone source is not published here.
 - Screenshots show the public home pages of dearit.com.bd and nrgiftshop.it.
 
-## Studio admin front end
+## Provenance
 
-The DS-Pythone Studio admin front end previously included one compiled JavaScript bundle carried over from the Journal 3 theme, unmodified apart from renamed labels. That file has been fully replaced with DearSoft-written code. The Studio admin front end is now entirely DearSoft's own work, like the rest of the platform.
+The storefront theme layer and its settings definitions were created from the Journal 3 theme and are still partly derived from it; builds installed on client sites that still use it also include a compiled Journal 3-derived JavaScript bundle in the Studio admin. DearSoft is replacing derived parts with its own code, and new installs no longer include the bundle. The commerce core builds on OpenCart 3.0.5.1 (GPL-3.0). The Python engine, DS Studio, the AI tools, courier integration, customer accounts and the licence and installer system are written by DearSoft.
 
 ## Third-party libraries
 

@@ -1,6 +1,6 @@
 # DS-Pythone proof sheet
 
-*Technical evidence, 25 September 2026. The same content is on <https://dearsoft.com.bd/proof>.*
+*Technical evidence, updated 14 October 2026 (DS-Pythone version 3.13.26). The same content is on <https://dearsoft.com.bd/proof>.*
 
 DS-Pythone is an e-commerce CMS and storefront written in Python, created by DearSoft (Mr. Khandaker Readul Islam, [about the founder](https://dearsoft.com.bd/founder)). Three things prove it.
 
@@ -27,13 +27,13 @@ data-engine="dspythone"
 
 ## 2. Source-code evidence: what the code looks like
 
-Counted on the source tree on 25 September 2026, excluding virtual environments, caches and build output.
+Counted on the source tree on 13 October 2026 (engine folder, tests included), excluding virtual environments, caches, storage, uploaded images and build output.
 
 | Measure | Value | Note |
 |---|---|---|
-| Python files | 1,161 | about 100,800 lines |
-| Twig templates | 745 | storefront and admin views |
-| PHP executed | 0 | 220 legacy PHP language files remain for reference. Each has a Python twin, and the engine loads only the Python ones. |
+| Python files | 1,487 | about 155,000 lines |
+| Twig templates | 869 | storefront and admin views |
+| PHP executed | 0 | The engine folder contains no PHP files. All language files are Python. |
 | Fresh install | minutes | One command or a 4-step web installer creates the 134 core tables. |
 
 | Layer | What it uses |
@@ -45,26 +45,26 @@ Counted on the source tree on 25 September 2026, excluding virtual environments,
 | Media | Pillow (WebP), optional rembg for background removal |
 | Serving | gunicorn behind nginx, or Passenger on shared hosting |
 
-### Built to be compatible, written by us
+### Our technology
 
-OpenCart is a widely used open-source e-commerce platform. Many stores in Bangladesh and elsewhere run on it. We designed DS-Pythone so those stores can move to Python without starting over.
+DS-Pythone is a Python e-commerce platform. Current version: 3.13.26.
 
-**OpenCart-compatible structure**
+**What it runs on**
 
-- DS-Pythone uses the same database schema as OpenCart 3.0.5.1 with the Journal 3 theme: the same tables, down to names like `dspythone_module` and `dspythone_skin`.
-- An existing store's catalog, customers, orders and Journal 3 theme settings work without conversion.
-- URLs and SEO links carry over, so a store keeps its Google rankings after moving.
-- This is exactly how dearit.com.bd and nrgiftshop.it were moved from PHP to Python: the live database was reused as-is, in production.
+- Python 3.11 or newer, with Flask and Jinja2 for the web layer and MySQL / MariaDB for data.
+- One engine serves the storefront, the admin panel and DS Studio, the visual builder for layouts, pages, blog and settings.
+- The built-in import tool brings an existing store's catalog, customers, orders and page addresses across, so search rankings carry over.
+- Installs in minutes: one command or a four-step web installer.
 
 **What is DearSoft's own work**
 
 - The complete Python engine: framework, loader, request handling, controllers, models and installer.
-- The DS-Pythone theme system and Studio builder, ported to Python from the Journal 3 theme's design, including the Studio admin front end, now entirely DearSoft-written code.
+- DS Studio, the visual builder, with its blog, style, filter and settings tools.
 - DearSoft AI, image tools, Pathao courier integration, customer accounts, and the licence and installer system.
 
-> **The Studio admin front end is now entirely DearSoft's own code.** The Studio admin's front end previously included a compiled JavaScript bundle derived from the Journal 3 theme; that bundle has been fully replaced with DearSoft-written code. The engine, the storefront theme, the admin backend and every feature listed above are Python and JavaScript written by DearSoft.
+> **Provenance and licences.** The storefront theme layer and its settings definitions were created from the Journal 3 theme and are still partly derived from it; builds installed on client sites that still use it also include a compiled Journal 3-derived JavaScript bundle in the Studio admin. DearSoft is replacing derived parts with its own code, and new installs no longer include the bundle. The commerce core builds on OpenCart 3.0.5.1 (GPL-3.0). The Python engine, DS Studio, the AI tools, courier integration, customer accounts and the licence and installer system are written by DearSoft.
 
-OpenCart (GPL-3.0) and Journal 3 are the work of their respective owners. DS-Pythone is compatible with OpenCart and Journal 3 and is not affiliated with, sponsored by, or endorsed by OpenCart or Journal 3.
+OpenCart (GPL-3.0) and Journal 3 are the work of their respective owners. DS-Pythone is not affiliated with, sponsored by, or endorsed by OpenCart or Journal 3.
 
 ### How to review it
 

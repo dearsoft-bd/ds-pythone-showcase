@@ -6,12 +6,12 @@ This repository (`ds-pythone-showcase`) is documentation and a small set of samp
 
 Copyright (c) DearSoft. All rights reserved.
 
-The text in `README.md`, `ARCHITECTURE.md`, `docs/PROOF.md`, `docs/INSTALL.md`, `NOTICE.md`, this file, and the two files in `samples/` (`pathao.py`, `llm_client.py`) is (c) DearSoft. No licence is granted to copy, modify or redistribute them beyond what GitHub's own terms allow for viewing and forking this repository. Full DS-Pythone source is not published here; see the Review section in README.md for private access.
+The text in `README.md`, `ARCHITECTURE.md`, `docs/PROOF.md`, `docs/INSTALL.md`, `NOTICE.md`, this file, and the two files in `samples/` (`pathao.py`, `llm_client.py`) is (c) DearSoft. No licence is granted to copy, modify or redistribute them beyond what GitHub's own terms allow for viewing and forking this repository. In particular, nobody may copy, scrape, republish or adapt this repository's text, structure, diagrams, screenshots or samples, or use them to train or fine-tune machine-learning models, without DearSoft's written permission. Full DS-Pythone source is not published here; see the Review section in README.md for private access.
 
 ## 2. The DS-Pythone product (not published in this repository)
 
 - The ported base platform and theme engine, following OpenCart 3.0.5.1's and Journal 3's own architecture and database structure, remain covered by the GNU General Public License v3.0 or later (GPL-3.0-or-later), the same licence OpenCart itself uses.
-- DearSoft's own original components, including the Python engine implementation, the DS-Pythone theme/Studio builder code (with the Studio admin front end, now entirely DearSoft-written), DearSoft AI, image tools, Pathao courier integration, customer accounts, and the licence/activation/installer system, are DearSoft's own commercial software, licensed separately and not covered by the GPL.
+- DearSoft's own original components, including the Python engine implementation, DS Studio, DearSoft AI, image tools, Pathao courier integration, customer accounts, and the licence/activation/installer system, are DearSoft's own commercial software, licensed separately and not covered by the GPL. The storefront theme layer and its settings definitions are partly derived from the Journal 3 theme and are not covered by this statement; DearSoft is replacing them with its own code.
 - Bundled third-party libraries (jQuery, Vue, Swiper, MasterSlider, CodeMirror, and others in the product's dependency manifest) remain under their own respective licences; DearSoft does not relicense them.
 
 
