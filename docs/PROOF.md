@@ -73,6 +73,8 @@ OpenCart (GPL-3.0) and Journal 3 are the work of their respective owners. DS-Pyt
 - **Admin dashboard.** A working demonstration of the catalog, orders, theme studio and AI tools.
 - **Clean install.** A new store installed from scratch on a call, from empty database to working storefront.
 
+**Google Developer Groups:** member of Google Developer Groups (GDG) — membership ID `BCR2DN6DZKPLD6RF`.
+
 ## 3. Client and project details: the two projects
 
 | Project | Country | Business | Catalog and speed | Status |
