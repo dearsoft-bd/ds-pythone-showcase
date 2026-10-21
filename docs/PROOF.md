@@ -1,21 +1,36 @@
 # DS-Pythone proof sheet
 
-*Technical evidence, updated 14 October 2026 (DS-Pythone version 3.13.26). The same content is on <https://dearsoft.com.bd/proof>.*
+*SaaS update: 10 October 2026 · Live checks: 14 October 2026 · Source snapshot: 13 October 2026 · DS-Pythone version 3.13.26. The same content is on <https://dearsoft.com.bd/proof>.*
 
-DS-Pythone is an e-commerce CMS and storefront written in Python, created by DearSoft (Mr. Khandaker Readul Islam, [about the founder](https://dearsoft.com.bd/founder)). Three things prove it.
+DS-Pythone is an e-commerce CMS and storefront written in Python, created by DearSoft (Mr. Khandaker Readul Islam, [about the founder](https://dearsoft.com.bd/founder)). Three things prove it, and this sheet covers each one.
 
 | 1. Live project link | 2. Source evidence | 3. Project details |
 |---|---|---|
-| Two public stores. Open them and check the page source. | Code facts now, source access on request. | Client, country, business, catalog size, status. |
+| Three public projects: commerce and service websites. | Code facts and review: numbers now, source access on request. | Client and catalog: country, business, size, status. |
 
-## 1. Live project link: two stores you can open right now
+## DearSoft Stores: managed Python commerce
 
-Each storefront marks its engine in the HTML of every page, so you can confirm it yourself in ten seconds.
+**Working SaaS capabilities. Explicit limits.**
 
-| Store | Address | Status |
+DS-Pythone now has a managed store workspace: verified owner accounts, isolated private hosting, free addresses, custom-domain verification, HTTPS and owner-only storefront preview. Start in private while visitors see a branded maintenance page.
+
+- Verified on 10 October 2026: actual private provisioning, custom-domain ownership TXT, valid HTTPS and primary URL switching.
+- Owner preview returns the real storefront; anonymous visitors receive maintenance (HTTP 503). Anonymous admin and direct upstream access remain restricted.
+- 41 focused automated tests passed for portal/domain/preview behavior at the maintenance-design release. Tests are engineering checks, not an independent security certification.
+- Billing and license-server promotional publishing remain unconnected; selecting Live alone does not publish a store.
+- No comparative speed ranking or Lighthouse score is claimed. Product pages use one local stylesheet, system fonts and no application JavaScript bundle. Existing CDN analytics may add a beacon; network timing is not a full user-experience benchmark.
+
+## 1. Live project link: three public projects you can open
+
+These public project links are separate from new private SaaS tenants. The marker shown below was part of the September source snapshot; an HTML label alone does not prove the server runtime. Use a guided server/source review for runtime evidence.
+
+| Project | Address | Status |
 |---|---|---|
 | Dear IT | <https://dearit.com.bd> | Live, DS-Pythone |
 | NR Gift Shop | <https://nrgiftshop.it> | Live, DS-Pythone |
+| DearService | <https://dearservice.com.bd> | Public live, DS-Pythone |
+
+**Live checks, 14 October 2026.** The home pages of dearit.com.bd, nrgiftshop.it and dearservice.com.bd, and DearService's contact page, returned HTTP 200 over valid HTTPS without owner login. On 10 October 2026 DearService's active hosting service was reported as running Python 3.12. This is an existing public service website, not evidence that the new SaaS billing/publishing integration is complete.
 
 ```bash
 # any terminal
@@ -27,7 +42,7 @@ data-engine="dspythone"
 
 ## 2. Source-code evidence: what the code looks like
 
-Counted on the source tree on 13 October 2026 (engine folder, tests included), excluding virtual environments, caches, storage, uploaded images and build output.
+Counted on the source tree on 13 October 2026 (engine folder; tests included), excluding virtual environments, caches, storage, uploaded images and build output.
 
 | Measure | Value | Note |
 |---|---|---|
@@ -47,7 +62,7 @@ Counted on the source tree on 13 October 2026 (engine folder, tests included), e
 
 ### Our technology
 
-DS-Pythone is a Python e-commerce platform. Current version: 3.13.26.
+DS-Pythone is a Python e-commerce platform. This section lists what it runs on, what DearSoft wrote, and the third-party licences that apply. Current version: 3.13.26. Source and showcase: [github.com/dearsoft-bd/ds-pythone-showcase](https://github.com/dearsoft-bd/ds-pythone-showcase).
 
 **What it runs on**
 
@@ -73,14 +88,17 @@ OpenCart (GPL-3.0) and Journal 3 are the work of their respective owners. DS-Pyt
 - **Admin dashboard.** A working demonstration of the catalog, orders, theme studio and AI tools.
 - **Clean install.** A new store installed from scratch on a call, from empty database to working storefront.
 
+**GitHub showcase:** [github.com/dearsoft-bd/ds-pythone-showcase](https://github.com/dearsoft-bd/ds-pythone-showcase) — this proof sheet, the architecture notes, install steps and a couple of standalone DearSoft-written source files, kept in sync with the proof page.
+
 **Google Developer Groups:** member of Google Developer Groups (GDG) — membership ID `BCR2DN6DZKPLD6RF`.
 
-## 3. Client and project details: the two projects
+## 3. Client and project details: the three projects
 
 | Project | Country | Business | Catalog and speed | Status |
 |---|---|---|---|---|
-| [Dear IT](https://dearit.com.bd) | Bangladesh | IT accessories, laptop sales and repairs. DearSoft's own showcase store. | About 2,350 products (public sitemap, 14 October 2026), migrated intact. Home page about 0.8 s (median of 5 requests, measured from Bangladesh on 24 Sep 2026). | Live |
-| [NR Gift Shop](https://nrgiftshop.it) | Italy (Florence) | Premium gifts and retail for shoppers in Italy. | About 370 products (public sitemap, 14 October 2026). Moved from a PHP store to the Python engine. | Live |
+| [Dear IT](https://dearit.com.bd) | Bangladesh | IT accessories, laptop sales and repairs. DearSoft's own showcase store. | About 2,350 products (public sitemap, 14 October 2026), migrated intact. Home page about 0.8 s (median of 5 requests, 14 Oct 2026). HTTPS / HTTP 200, checked 14 October 2026. | Live |
+| [NR Gift Shop](https://nrgiftshop.it) | Italy (Florence) | Premium gifts and retail for shoppers in Italy. | About 370 products (public sitemap, 14 October 2026). Moved from a PHP store to the Python engine. HTTPS / HTTP 200, checked 14 October 2026. | Live |
+| [DearService](https://dearservice.com.bd) | Bangladesh | Repair and service website. | Homepage and contact page: HTTPS / HTTP 200, checked 14 October 2026. No catalog count or speed benchmark claimed. | Public live |
 
 Other stores also run on the platform. Their details are shared only with each client's permission.
 
