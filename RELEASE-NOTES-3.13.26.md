@@ -5,6 +5,8 @@ Release notes. This is a **documentation release**: it contains no DS-Pythone so
 ## Version
 DS-Pythone **3.13.26**, by [DearSoft](https://dearsoft.com.bd). Facts below were checked on 13-14 October 2026.
 
+DearSoft is a member of Google Developer Groups (GDG), membership ID `BCR2DN6DZKPLD6RF`.
+
 ## What is in this release
 - `README.md`, `ARCHITECTURE.md`, `docs/PROOF.md`, `docs/INSTALL.md`: how the platform is built, what it runs on, how it installs.
 - `samples/pathao.py` and `samples/llm_client.py`: two DearSoft-written files, shown unchanged.
@@ -18,8 +20,9 @@ DS-Pythone **3.13.26**, by [DearSoft](https://dearsoft.com.bd). Facts below were
 - Python 3.11 or newer, Flask 3, Jinja2, PyMySQL on MySQL / MariaDB.
 - Installs from an empty database in minutes: one command or a four-step web installer.
 
-## Live stores (HTTP 200 over valid HTTPS on 14 October 2026)
-- https://dearit.com.bd and https://nrgiftshop.it. Check the engine mark yourself: `curl -s https://dearit.com.bd/ | grep -o 'data-engine="[^"]*"'` prints `data-engine="dspythone"`.
+## Live projects (HTTP 200 over valid HTTPS on 14 October 2026)
+- https://dearit.com.bd, https://nrgiftshop.it and https://dearservice.com.bd (repair and service website; homepage and contact page checked).
+- Dear IT and NR Gift Shop: check the engine mark yourself; `curl -s https://dearit.com.bd/ | grep -o 'data-engine="[^"]*"'` prints `data-engine="dspythone"`.
 
 ## Rights
 Copyright (c) DearSoft. All rights reserved. No licence is granted to copy, scrape, republish or adapt this repository's text, structure, diagrams, screenshots or samples, or to use them to train machine-learning models, without DearSoft's written permission. See `LICENSE.md` and `NOTICE.md`.

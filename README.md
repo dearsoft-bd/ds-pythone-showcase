@@ -7,7 +7,9 @@
 It runs real online stores today, on Flask, Jinja2 and MySQL/MariaDB, with a visual page builder, an admin panel and built-in AI tools.
 
 > **Proof page:** <https://dearsoft.com.bd/proof> (also in this repo: [`docs/PROOF.md`](docs/PROOF.md))
-> Live stores, code facts and how to review the source.
+> Live projects, code facts and how to review the source.
+>
+> **Google Developer Groups:** member of Google Developer Groups (GDG) — membership ID `BCR2DN6DZKPLD6RF`.
 
 This repository is a **showcase**. It explains how DS-Pythone is built and includes a few DearSoft-written source files. The full source is not published here; it can be reviewed privately on request (see [Review the source](#review-the-source)).
 
@@ -17,6 +19,7 @@ This repository is a **showcase**. It explains how DS-Pythone is built and inclu
 |---|---|---|
 | [Dear IT](https://dearit.com.bd) | Bangladesh | IT accessories, laptop sales and repairs. About 2,350 products (public sitemap, 14 October 2026). |
 | [NR Gift Shop](https://nrgiftshop.it) | Italy (Florence) | Gifts and retail. About 370 products (public sitemap, 14 October 2026). Moved from a PHP store to DS-Pythone. |
+| [DearService](https://dearservice.com.bd) | Bangladesh | Repair and service website. Public live: homepage and contact page returned HTTP 200 over valid HTTPS on 14 October 2026. No catalog count or speed benchmark claimed. |
 
 Every DS-Pythone storefront marks its engine in the page HTML, so you can check it yourself:
 
