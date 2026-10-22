@@ -5,7 +5,7 @@ Release notes. This is a **documentation release**: it contains no DS-Pythone so
 ## Version
 DS-Pythone **3.13.26**, by [DearSoft](https://dearsoft.com.bd). Facts below were checked on 13-14 October 2026.
 
-DearSoft is a member of Google Developer Groups (GDG), membership ID `BCR2DN6DZKPLD6RF`.
+DearSoft is a member of Google Developer Groups (GDG Sonargaon). Google Developer Program profile with badges: https://g.dev/dearsoft.
 
 ## What is in this release
 - `README.md`, `ARCHITECTURE.md`, `docs/PROOF.md`, `docs/INSTALL.md`: how the platform is built, what it runs on, how it installs.
