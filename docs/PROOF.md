@@ -90,7 +90,7 @@ OpenCart (GPL-3.0) and Journal 3 are the work of their respective owners. DS-Pyt
 
 **GitHub showcase:** [github.com/dearsoft-bd/ds-pythone-showcase](https://github.com/dearsoft-bd/ds-pythone-showcase) — this proof sheet, the architecture notes, install steps and a couple of standalone DearSoft-written source files, kept in sync with the proof page.
 
-**Google Developer Groups:** member of Google Developer Groups (GDG) — membership ID `BCR2DN6DZKPLD6RF`.
+**Google Developer Groups:** member of Google Developer Groups (GDG) — membership ID `BCR2DN6DZKPLD6RF`. Google Developer Program profile with badges: <https://g.dev/dearsoft>.
 
 ## 3. Client and project details: the three projects
 
