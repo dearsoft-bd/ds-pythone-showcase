@@ -9,7 +9,7 @@ It runs real online stores today, on Flask, Jinja2 and MySQL/MariaDB, with a vis
 > **Proof page:** <https://dearsoft.com.bd/proof> (also in this repo: [`docs/PROOF.md`](docs/PROOF.md))
 > Live projects, code facts and how to review the source.
 >
-> **Google Developer Groups:** member of Google Developer Groups (GDG) — membership ID `BCR2DN6DZKPLD6RF`.
+> **Google Developer Groups:** member of Google Developer Groups (GDG) — membership ID `BCR2DN6DZKPLD6RF`. Google Developer Program profile: <https://g.dev/dearsoft>
 
 This repository is a **showcase**. It explains how DS-Pythone is built and includes a few DearSoft-written source files. The full source is not published here; it can be reviewed privately on request (see [Review the source](#review-the-source)).
 
