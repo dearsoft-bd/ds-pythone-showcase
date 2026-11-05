@@ -18,7 +18,7 @@ DS-Pythone now has a managed store workspace: verified owner accounts, isolated 
 - Owner preview returns the real storefront; anonymous visitors receive maintenance (HTTP 503). Anonymous admin and direct upstream access remain restricted.
 - 41 focused automated tests passed for portal/domain/preview behavior at the maintenance-design release. Tests are engineering checks, not an independent security certification.
 - Billing and license-server promotional publishing remain unconnected; selecting Live alone does not publish a store.
-- No comparative speed ranking or Lighthouse score is claimed. Product pages use one local stylesheet, system fonts and no application JavaScript bundle. Existing CDN analytics may add a beacon; network timing is not a full user-experience benchmark.
+- No comparative speed ranking is claimed. A single-store PageSpeed (Lighthouse) result is on the [Release v4.11.26](https://github.com/dearsoft-bd/ds-pythone-showcase/wiki/Release-v4.11.26) wiki page. Product pages use one local stylesheet, system fonts and no application JavaScript bundle. Existing CDN analytics may add a beacon; network timing is not a full user-experience benchmark.
 
 ## 1. Live project link: three public projects you can open
 
