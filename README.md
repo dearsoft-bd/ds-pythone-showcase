@@ -4,6 +4,8 @@
 
 **Version 3.13.26 showcase release.** This repository documents DS-Pythone 3.13.26. It holds documentation and two sample files only. The DS-Pythone source code is not published here, and no licence to copy it is granted (see [`LICENSE.md`](LICENSE.md)).
 
+**Latest release: v4.11.26** (4–5 November 2026). Release notes, a PageSpeed speed check and update steps are on the wiki: [Release v4.11.26](https://github.com/dearsoft-bd/ds-pythone-showcase/wiki/Release-v4.11.26). The licence-check version stays 3.13.26.
+
 It runs real online stores today, on Flask, Jinja2 and MySQL/MariaDB, with a visual page builder, an admin panel and built-in AI tools.
 
 > **Proof page:** <https://dearsoft.com.bd/proof> (also in this repo: [`docs/PROOF.md`](docs/PROOF.md))
