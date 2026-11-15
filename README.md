@@ -6,6 +6,8 @@
 
 **Latest release: v4.11.26** (4–5 November 2026). Release notes, a PageSpeed speed check and update steps are on the wiki: [Release v4.11.26](https://github.com/dearsoft-bd/ds-pythone-showcase/wiki/Release-v4.11.26). The licence-check version stays 3.13.26.
 
+The version 4 source line is kept in a separate **private** repository, [`dearsoft-bd/DS-Pythone`](https://github.com/dearsoft-bd/DS-Pythone) (source mirror with release tags; it opens only for accounts that are given access — see [Review the source](#review-the-source)).
+
 It runs real online stores today, on Flask, Jinja2 and MySQL/MariaDB, with a visual page builder, an admin panel and built-in AI tools.
 
 > **Proof page:** <https://dearsoft.com.bd/proof> (also in this repo: [`docs/PROOF.md`](docs/PROOF.md))
@@ -79,7 +81,7 @@ The two files in `samples/` are shown unchanged. They import nothing from the re
 
 The complete source is commercial software and is shared on request:
 
-- read-only access to a private repository, or
+- read-only access to the private version 4 source repository [`dearsoft-bd/DS-Pythone`](https://github.com/dearsoft-bd/DS-Pythone), or
 - a guided screen-share walkthrough of the engine, controllers and templates, or
 - a live server session showing the Python version and the running service.
 
