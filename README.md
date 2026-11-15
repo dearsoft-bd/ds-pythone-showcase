@@ -8,6 +8,8 @@
 
 The version 4 source line is kept in a separate **private** repository, [`dearsoft-bd/DS-Pythone`](https://github.com/dearsoft-bd/DS-Pythone) (source mirror with release tags; it opens only for accounts that are given access — see [Review the source](#review-the-source)).
 
+A **public source-available excerpt** of the parts DearSoft wrote itself (DS Studio, DS Blog, DS Filter, DS Style) is in [`dearsoft-bd/ds-pythone-core`](https://github.com/dearsoft-bd/ds-pythone-core). It is not a standalone application; the full engine and theme layer stay in the private repository.
+
 It runs real online stores today, on Flask, Jinja2 and MySQL/MariaDB, with a visual page builder, an admin panel and built-in AI tools.
 
 > **Proof page:** <https://dearsoft.com.bd/proof> (also in this repo: [`docs/PROOF.md`](docs/PROOF.md))
